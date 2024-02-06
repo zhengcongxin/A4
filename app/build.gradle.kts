@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        create("myhwReleaseConfig") {
+            storeFile = file("/Users/hong/Downloads/NEU/2023fall/keystoredemo/classkeystore")
+            keyAlias = "key0"
+            storePassword = "111111"
+            keyPassword = "111111"
+        }
+    }
     namespace = "edu.northeastern.numad24sp_zhengcongxin"
     compileSdk = 34
 
@@ -14,6 +22,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig = signingConfigs.getByName("myhwReleaseConfig")
     }
 
     buildTypes {
