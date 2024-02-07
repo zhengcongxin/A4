@@ -27,4 +27,12 @@
         android:layout_gravity="center"
         />
 
+    <Button
+        android:id="@+id/btn_clicky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Clicky Clicky"/>
+
 </LinearLayout>

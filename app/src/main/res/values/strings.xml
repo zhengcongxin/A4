@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NUMAD24Sp_zhengcongxin</string>
+    <string name="version">1.0 beta</string>
+    <string name="btn_enter">enter</string>
+    <string name="username_hint">please enter username</string>
+    <string name="passsword_hint">please enter password</string>
+    <string name="icon_msg">icon</string>
 </resources>
