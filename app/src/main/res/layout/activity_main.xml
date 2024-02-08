@@ -20,8 +20,8 @@
 
     <Button
         android:id="@+id/btn_aboutMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:text="About Me"
         android:layout_gravity="center"
@@ -29,10 +29,17 @@
 
     <Button
         android:id="@+id/btn_clicky"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
         android:layout_gravity="center"
         android:text="Clicky Clicky"/>
+
+    <Button
+        android:id="@+id/btn_linkCollector"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Link Collector"/>
 
 </LinearLayout>

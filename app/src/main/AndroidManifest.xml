@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD24Sp_zhengcongxin"
         tools:targetApi="31">
+
+        <activity
+            android:name=".EnterLinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinkCollectActivity"
+            android:exported="false" />
         <activity
             android:name=".ButtonGridActivity"
             android:exported="false" />

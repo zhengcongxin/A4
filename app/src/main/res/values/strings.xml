@@ -5,4 +5,5 @@
     <string name="username_hint">please enter username</string>
     <string name="passsword_hint">please enter password</string>
     <string name="icon_msg">icon</string>
+    <string name="fab">fab</string>
 </resources>
